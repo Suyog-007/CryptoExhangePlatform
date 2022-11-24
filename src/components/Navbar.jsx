@@ -18,13 +18,16 @@ const Navbar = () => {
       </div>
       <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
       <NavBarItem title="Home" />
-            <a href="http://127.0.0.1:3000/cryptocurrencies">
+            {/* <a href="http://127.0.0.1:3000/cryptocurrencies"> */}
+            <a href="https://glittery-gecko-9e0b0f.netlify.app/cryptocurrencies">
             <NavBarItem title="Cryptocurrencies" />
             </a> 
-                 <a href="http://127.0.0.1:3000/">
+                 {/* <a href="http://127.0.0.1:3000/"> */}
+                 <a href="https://glittery-gecko-9e0b0f.netlify.app/">
             <NavBarItem title="Market" />
                  </a>
-            <a href="http://127.0.0.1:3000/news">
+            {/* <a href="http://127.0.0.1:3000/news"> */}
+            <a href="https://glittery-gecko-9e0b0f.netlify.app/news">
             <NavBarItem title="News" />
             </a> 
        
@@ -43,14 +46,17 @@ const Navbar = () => {
             <li className="text-xl w-full my-2"><AiOutlineClose onClick={() => setToggleMenu(false)} /></li>
        
           <NavBarItem title="Home" />
-            <a href="http://127.0.0.1:3000/cryptocurrencies">
+            {/* <a href="http://127.0.0.1:3000/cryptocurrencies"> */}
+            <a href="https://glittery-gecko-9e0b0f.netlify.app/cryptocurrencies">
             <NavBarItem title="Cryptocurrencies" />
             </a> 
-                 <a href="http://127.0.0.1:3000/">
+                 {/* <a href="http://127.0.0.1:3000/"> */}
+                 <a href="https://glittery-gecko-9e0b0f.netlify.app/">
             <NavBarItem title="Market" />
 
                  </a>
-            <a href="http://127.0.0.1:3000/news">
+            {/* <a href="http://127.0.0.1:3000/news"> */}
+            <a href="https://glittery-gecko-9e0b0f.netlify.app/news">
             <NavBarItem title="News" />
             </a> 
           </ul>
